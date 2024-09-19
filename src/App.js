@@ -200,7 +200,7 @@ function App() {
                   </div>
                   <h3 className="card-title">Hosting Services</h3>
                   <p>
-                    Our hosting services include domain registration, website management, server support, and more—tailored to your specific requirements.
+                  Our hosting services include managing your website on a free hosting server. If you need a paid domain, we can help that as well, along with other services tailored to your specific requirements.
                   </p>
                 </div>
               </div>
