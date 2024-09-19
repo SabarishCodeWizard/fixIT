@@ -402,7 +402,7 @@ function App() {
               className="list-group-item list-group-item-action"
             >
               <i className="fas fa-envelope-square" aria-hidden="true" />
-              <span className="sr-only">Email address:</span> fixit@gmail.com
+              <span className="sr-only">Email address:</span> fixit60656@gmail.com
             </a>
           </div>
         </div>
@@ -496,7 +496,7 @@ function App() {
             <div className="col text-md-right">
               Email:&nbsp;
               <br className="d-sm-none" />
-              <a href="mailto:fixit@gmail.com">fixit@gmail.com</a>
+              <a href="mailto:fixit@gmail.com">fixit60656@gmail.com</a>
             </div>
           </div>
           <div className="row no-gutters">
