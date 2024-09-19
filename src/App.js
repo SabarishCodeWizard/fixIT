@@ -41,7 +41,7 @@ function App() {
                     className="nav-link testimonials-link"
                     href="#testimonials"
                   >
-                    Testimonials
+                    Members
                   </a>
                 </li>
                 <li className="nav-item">
@@ -102,141 +102,136 @@ function App() {
   </section>
   {/* SERVICES SECTION */}
   <section id="services">
-    <div className="container">
-      <div className="row">
-        <div className="col text-center">
-          <h2 className="section-header">Our Services</h2>
-          <hr />
-        </div>
+  <div className="container">
+    <div className="row">
+      <div className="col text-center">
+        <h2 className="section-header">Our Services</h2>
+        <hr />
       </div>
-      <div className="row">
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round design-icon">
-                <i className="fas fa-tablet-alt" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">Static and Dynamic Website Development</h3>
-              <p>
+    </div>
+    <div className="row">
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round design-icon">
+              <i className="fas fa-laptop-code" aria-hidden="true"></i>
+            </div>
+            <h3 className="card-title">Static and Dynamic Website Development</h3>
+            <p>
               Build sleek, responsive, and fast-loading websites, tailored to your business needs.
-              </p>
-              <p>
+            </p>
+            <p>
               From simple, informative static sites to complex, interactive dynamic platforms, we ensure your online presence is powerful and user-friendly.
-              </p>
-            </div>
+            </p>
           </div>
         </div>
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round dev-icon">
-                <i className="fas fa-cogs" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">E-commerce Development (MERN Stack)</h3>
-              <p>
+      </div>
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round dev-icon">
+              <i className="fas fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+            <h3 className="card-title">E-commerce Development (MERN Stack)</h3>
+            <p>
               Launch and scale your online store with our expertise in the MERN stack (MongoDB, Express, React, Node.js).
-              </p>
-              <p>
+            </p>
+            <p>
               We provide end-to-end solutions for your e-commerce needs, including product listings, secure payment gateways, and seamless user experiences.
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round content-icon">
-                <i className="fas fa-pen-fancy" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">Logo Creation & Branding</h3>
-              <p>
+    </div>
+    <div className="row">
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round content-icon">
+              <i className="fas fa-paint-brush" aria-hidden="true"></i>
+            </div>
+            <h3 className="card-title">Logo Creation & Branding</h3>
+            <p>
               Your logo is the face of your brand.
-              </p>
-              <p>
+            </p>
+            <p>
               Our creative team designs unique, memorable logos that truly represent your brand identity and appeal to your target audience.
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round hosting-icon">
-                <i className="fas fa-server" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">App Development</h3>
-              <p>
-              Transform your idea into a fully functional app.
-              </p>
-              <p>
-              we offer custom mobile app development to help you engage with your customers and streamline business operations.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round design-icon">
-                <i className="fas fa-tablet-alt" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">Video Editing</h3>
-              <p>
-              Elevate your content with professional video editing.
-              </p>
-              <p>
-              Whether it's promotional material, social media content, or business presentations, we craft visually engaging and high-impact videos.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="card-icon-round design-icon">
-                <i className="fas fa-tablet-alt" aria-hidden="true" />
-              </div>
-              <h3 className="card-title">Hosting Services</h3>
-              <p>
-              Our hosting services include domain registration, website management, server support, and more—tailored to your specific requirements.
-
-              </p>
-              <p>
-              
-              </p>
-            </div>
+            </p>
           </div>
         </div>
       </div>
-      
-      <div className="row">
-        <div className="col-md-3" />
-        <div className="col-md-6">
-          <div className="card text-center">
-            <div className="card-body">
-              <div className="call-to-action-text">
-                How can I help with your project?
-              </div>
-              <a className="btn btn-contact btn-lg" href="#contact">
-                Contact Me
-              </a>
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round hosting-icon">
+              <i className="fas fa-mobile-alt" aria-hidden="true"></i>
             </div>
+            <h3 className="card-title">App Development</h3>
+            <p>
+              Transform your idea into a fully functional app.
+            </p>
+            <p>
+              We offer custom mobile app development to help you engage with your customers and streamline business operations.
+            </p>
           </div>
         </div>
-        <div className="col-md-3" />
+      </div>
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round design-icon">
+              <i className="fas fa-video" aria-hidden="true"></i>
+            </div>
+            <h3 className="card-title">Video Editing</h3>
+            <p>
+              Elevate your content with professional video editing.
+            </p>
+            <p>
+              Whether it's promotional material, social media content, or business presentations, we craft visually engaging and high-impact videos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="card-icon-round hosting-icon">
+              <i className="fas fa-server" aria-hidden="true"></i>
+            </div>
+            <h3 className="card-title">Hosting Services</h3>
+            <p>
+              Our hosting services include domain registration, website management, server support, and more—tailored to your specific requirements.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     
-  </section>
+    <div className="row">
+      <div className="col-md-3"></div>
+      <div className="col-md-6">
+        <div className="card text-center">
+          <div className="card-body">
+            <div className="call-to-action-text">
+              How can I help with your project?
+            </div>
+            <a className="btn btn-contact btn-lg" href="#contact">
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3"></div>
+    </div>
+  </div>
+</section>
+
   {/* TESTIMONIALS SECTION */}
   <section id="testimonials">
     <div className="container-fluid">
       <div className="row">
         <div className="col text-center">
-          <h2 className="section-header">Testimonials</h2>
+          <h2 className="section-header">Members</h2>
           <hr />
         </div>
       </div>
@@ -407,7 +402,7 @@ function App() {
               className="list-group-item list-group-item-action"
             >
               <i className="fas fa-envelope-square" aria-hidden="true" />
-              <span className="sr-only">Email address:</span> ravik60656@gmail.com
+              <span className="sr-only">Email address:</span> fixit@gmail.com
             </a>
           </div>
         </div>
@@ -501,15 +496,15 @@ function App() {
             <div className="col text-md-right">
               Email:&nbsp;
               <br className="d-sm-none" />
-              <a href="mailto:liam@example.com">ravik60656@gmail.com</a>
+              <a href="mailto:liam@example.com">fixit@gmail.com</a>
             </div>
           </div>
           <div className="row no-gutters">
             <div className="col text-md-right">
               GitHub:&nbsp;
               <br className="d-sm-none" />
-              <a href="https://github.com/lmjh/" target="_blank">
-                sabarish{"https://github.com/SabarishCodeWizard"}
+              <a href="https://github.com/SabarishCodeWizard" target="_blank">
+                {"https://github.com/SabarishCodeWizard"}
               </a>
             </div>
           </div>
