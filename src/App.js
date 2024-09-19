@@ -262,10 +262,7 @@ function App() {
                     alt="A woman standing in front of a whiteboard."
                   />
                   <figcaption className="carousel-caption">
-                    <p className="testimonial-text">
-                     <b>fixIT</b> helped us to
-                      create a website that we're proud of.
-                    </p>
+                    
                     <p className="testimonial-name">- Sabarish R</p>
                   </figcaption>
                 </figure>
@@ -278,10 +275,7 @@ function App() {
                     alt="A smiling man wearing a suit."
                   />
                   <figcaption className="carousel-caption">
-                    <p className="testimonial-text">
-                      fixIT is a very reliable and capable freelancer who's
-                      worked with us on numerous projects.
-                    </p>
+                    
                     <p className="testimonial-name">- Mugundhan K V</p>
                   </figcaption>
                 </figure>
