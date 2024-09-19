@@ -72,24 +72,21 @@ function App() {
             alt="A smiling drawing of a man."
           />
           <figcaption className="sr-only">
-            Liam Hemming, a freelance web designer, developer and content
-            writer.
+            
           </figcaption>
         </figure>
         <div className="col-md-6">
           <div className="jumbotron bg-white">
-            <h1>Hi, I'm Liam.</h1>
+            <h1>Welcome to fixIT</h1>
             <hr />
-            <p>I design, build and write for websites in North Wales.</p>
+            
             <p>
-              I've worked in this industry for nearly a decade and have had
-              clients ranging from international companies to sole traders.
+            At <b>fixIT</b>, we provide high-quality, professional IT services designed to meet the diverse needs of modern businesses and entrepreneurs.
             </p>
             <p>
-              What I really love doing is working with local businesses and
-              charities, to help them achieve a high-quality, effective web
-              presence.
+            Whether you're looking to create a stunning online presence or need expert support for your app, e-commerce site, or digital content, we're here to help!
             </p>
+           
             <div className="text-center">
               <a className="btn btn-lg btn-home" href="#services">
                 Learn More
@@ -108,7 +105,7 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col text-center">
-          <h2 className="section-header">My Services</h2>
+          <h2 className="section-header">Our Services</h2>
           <hr />
         </div>
       </div>
@@ -119,14 +116,12 @@ function App() {
               <div className="card-icon-round design-icon">
                 <i className="fas fa-tablet-alt" aria-hidden="true" />
               </div>
-              <h3 className="card-title">Design</h3>
+              <h3 className="card-title">Static and Dynamic Website Development</h3>
               <p>
-                My job as a designer is to take your brilliant ideas and turn
-                them into a polished, professional website.
+              Build sleek, responsive, and fast-loading websites, tailored to your business needs.
               </p>
               <p>
-                I take a measured approach to design, with a strong focus on
-                optimising user experience.
+              From simple, informative static sites to complex, interactive dynamic platforms, we ensure your online presence is powerful and user-friendly.
               </p>
             </div>
           </div>
@@ -137,14 +132,12 @@ function App() {
               <div className="card-icon-round dev-icon">
                 <i className="fas fa-cogs" aria-hidden="true" />
               </div>
-              <h3 className="card-title">Development</h3>
+              <h3 className="card-title">E-commerce Development (MERN Stack)</h3>
               <p>
-                I've been building websites for many years both alone and as
-                part of a team.
+              Launch and scale your online store with our expertise in the MERN stack (MongoDB, Express, React, Node.js).
               </p>
               <p>
-                I've worked on simple, static websites, complex web applications
-                with large user bases, and everything in between.
+              We provide end-to-end solutions for your e-commerce needs, including product listings, secure payment gateways, and seamless user experiences.
               </p>
             </div>
           </div>
@@ -157,15 +150,13 @@ function App() {
               <div className="card-icon-round content-icon">
                 <i className="fas fa-pen-fancy" aria-hidden="true" />
               </div>
-              <h3 className="card-title">Content</h3>
+              <h3 className="card-title">Logo Creation & Branding</h3>
               <p>
-                I started in the online industry ten years ago as a content
-                writer and editor.
+              Your logo is the face of your brand.
               </p>
               <p>
-                I can write for your project, or help refine your own writing
-                into professional content that's effective for both users and
-                search engines.
+              Our creative team designs unique, memorable logos that truly represent your brand identity and appeal to your target audience.
+
               </p>
             </div>
           </div>
@@ -176,20 +167,51 @@ function App() {
               <div className="card-icon-round hosting-icon">
                 <i className="fas fa-server" aria-hidden="true" />
               </div>
-              <h3 className="card-title">Hosting</h3>
+              <h3 className="card-title">App Development</h3>
               <p>
-                A web host is where your site is stored on the internet, so it's
-                accessible to your users.
+              Transform your idea into a fully functional app.
               </p>
               <p>
-                I can provide hosting for your completed project for a small
-                monthly fee, or assist with getting your site set up on your own
-                host, if you prefer.
+              we offer custom mobile app development to help you engage with your customers and streamline business operations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="card text-center">
+            <div className="card-body">
+              <div className="card-icon-round design-icon">
+                <i className="fas fa-tablet-alt" aria-hidden="true" />
+              </div>
+              <h3 className="card-title">Video Editing</h3>
+              <p>
+              Elevate your content with professional video editing.
+              </p>
+              <p>
+              Whether it's promotional material, social media content, or business presentations, we craft visually engaging and high-impact videos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="card text-center">
+            <div className="card-body">
+              <div className="card-icon-round design-icon">
+                <i className="fas fa-tablet-alt" aria-hidden="true" />
+              </div>
+              <h3 className="card-title">Hosting Services</h3>
+              <p>
+              Our hosting services include domain registration, website management, server support, and more—tailored to your specific requirements.
+
+              </p>
+              <p>
+              
               </p>
             </div>
           </div>
         </div>
       </div>
+      
       <div className="row">
         <div className="col-md-3" />
         <div className="col-md-6">
@@ -207,6 +229,7 @@ function App() {
         <div className="col-md-3" />
       </div>
     </div>
+    
   </section>
   {/* TESTIMONIALS SECTION */}
   <section id="testimonials">
@@ -245,14 +268,14 @@ function App() {
                   />
                   <figcaption className="carousel-caption">
                     <p className="testimonial-text">
-                      I run a non-profit with a limit budget. Liam helped us to
+                     <b>fixIT</b> helped us to
                       create a website that we're proud of.
                     </p>
-                    <p className="testimonial-name">- Lindsay Palmer</p>
+                    <p className="testimonial-name">- Sabarish R</p>
                   </figcaption>
                 </figure>
               </div>
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <figure>
                   <img
                     className="d-block w-100 mx-auto testimonial-image"
@@ -284,7 +307,7 @@ function App() {
                     <p className="testimonial-name">- Ashley Cook</p>
                   </figcaption>
                 </figure>
-              </div>
+              </div> */}
             </div>
             <a
               className="carousel-control-prev"
@@ -312,57 +335,47 @@ function App() {
   </section>
   {/* ABOUT SECTION */}
   <section id="about">
-    <div className="container">
-      <div className="row">
-        <div className="col text-center">
-          <h2 className="section-header">About Me</h2>
-          <hr />
-        </div>
+  <div className="container">
+    <div className="row">
+      <div className="col text-center">
+        <h2 className="section-header">About Us</h2>
+        <hr />
       </div>
-      <div className="row align-items-center">
-        <div className="col-md-6 order-2 order-md-1">
-          <img
-            className="d-block w-100 feature-img-round mx-auto"
-            src="assets/images/lake-surrounded-by-mountain-lukas-hartmann.jpg"
-            alt=""
-          />
-        </div>
-        <div className="col-md-6 order-1 order-md-2">
-          <h3>So, who are you?</h3>
-          <p>
-            My name's Liam and I'm a freelance web designer, developer and
-            content writer. I've been working in this industry for around ten
-            years. I started out on the content side, writing, editing and doing
-            SEO (Search Engine Optimisation) work for websites, but I eventually
-            expanded my skill set into design and development.
-          </p>
-          <p>
-            I live in North Wales and most of my clients are based around here,
-            too - though I've worked with clients and teams from all around the
-            world!
-          </p>
-          <h3>Why do you do what you do?</h3>
-          <p>
-            {" "}
-            I love building websites and helping people turn their ideas into
-            reality. I particularly love working with people, charities and
-            small businesses from my local area to help them achieve a web
-            presence they can be proud of.
-          </p>
-          <p>
-            I'm not a big, faceless company churning out one-size-fits-none
-            products. I'm someone who takes time to understand my clients' needs
-            and who puts care and skill into every project I undertake.
-          </p>
-          <div className="text-center">
-            <a className="btn btn-contact btn-lg" href="#contact">
-              Contact Me
-            </a>
-          </div>
+    </div>
+    <div className="row align-items-center">
+      <div className="col-md-6 order-2 order-md-1">
+        <img
+          className="d-block w-100 feature-img-round mx-auto"
+          src="assets/images/profile-picture.png"
+          alt="Our Team"
+        />
+      </div>
+      <div className="col-md-6 order-1 order-md-2">
+        <h3>Who We Are</h3>
+        <p>
+          At fixIT, we are a passionate team of college students dedicated to helping businesses and individuals achieve their digital goals. With expertise across web development, app creation, e-commerce solutions, and digital content, we bring your vision to life with precision and creativity.
+        </p>
+        <p>
+          Founded on the principles of innovation, quality, and client satisfaction, we are committed to delivering services that drive results, no matter the size of your business.
+        </p>
+        <h3>Our Mission</h3>
+        <p>
+          Our mission is to empower our clients with cutting-edge digital solutions that enhance their online presence, improve business operations, and deliver lasting value. We aim to build long-term partnerships based on trust and transparency.
+        </p>
+        <h3>What We Offer</h3>
+        <p>
+          We specialize in website development, e-commerce solutions, app development, logo creation, video and image editing, and hosting services. Our custom solutions are designed to help you succeed in the digital world.
+        </p>
+        <div className="text-center">
+          <a className="btn btn-contact btn-lg" href="#contact">
+            Contact Us
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
   {/* CONTACT SECTION */}
   <section id="contact">
     <div className="container">
@@ -387,14 +400,14 @@ function App() {
               className="list-group-item list-group-item-action"
             >
               <i className="fas fa-phone-square" aria-hidden="true" />
-              <span className="sr-only">Phone number:</span> 01234 567890
+              <span className="sr-only">Phone number:</span> +91 7845081278
             </a>
             <a
               href="mailto:liam@example.com"
               className="list-group-item list-group-item-action"
             >
               <i className="fas fa-envelope-square" aria-hidden="true" />
-              <span className="sr-only">Email address:</span> liam@example.com
+              <span className="sr-only">Email address:</span> ravik60656@gmail.com
             </a>
           </div>
         </div>
@@ -474,21 +487,21 @@ function App() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-12 col-md-4">
-          <p>© 2021 Liam Hemming</p>
+          <p>© 2024 at fixIT</p>
         </div>
         <div className="col-12 col-md-8 footer-contact">
           <div className="row no-gutters">
             <div className="col text-md-right">
               Phone:&nbsp;
               <br className="d-sm-none" />
-              <a href="tel:01234567890"> 01234 567890</a>
+              <a href="tel:01234567890"> +91 7845081278</a>
             </div>
           </div>
           <div className="row no-gutters">
             <div className="col text-md-right">
               Email:&nbsp;
               <br className="d-sm-none" />
-              <a href="mailto:liam@example.com">liam@example.com</a>
+              <a href="mailto:liam@example.com">ravik60656@gmail.com</a>
             </div>
           </div>
           <div className="row no-gutters">
