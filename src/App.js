@@ -496,7 +496,7 @@ function App() {
             <div className="col text-md-right">
               Email:&nbsp;
               <br className="d-sm-none" />
-              <a href="mailto:liam@example.com">fixit@gmail.com</a>
+              <a href="fixit@gmail.com">your mail</a>
             </div>
           </div>
           <div className="row no-gutters">
