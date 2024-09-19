@@ -280,23 +280,19 @@ function App() {
                   </figcaption>
                 </figure>
               </div>
-              {/* <div className="carousel-item">
+              <div className="carousel-item">
                 <figure>
                   <img
                     className="d-block w-100 mx-auto testimonial-image"
-                    src="assets/images/testimonial-3.jpg"
+                    src="assets/images/prabha.png"
                     alt="A woman standing in front of a colourful graffitied wall."
                   />
                   <figcaption className="carousel-caption">
-                    <p className="testimonial-text">
-                      I had a very clear idea of how I wanted my site to look
-                      and function. Liam listened carefully and delivered
-                      exactly what I was looking for.
-                    </p>
-                    <p className="testimonial-name">- Ashley Cook</p>
+                   
+                    <p className="testimonial-name">- Prabha K</p>
                   </figcaption>
                 </figure>
-              </div> */}
+              </div>
             </div>
             <a
               className="carousel-control-prev"
