@@ -408,7 +408,7 @@ function App() {
         </div>
       </div>
       {/* CONTACT FORM */}
-      <form action="https://formspree.io/f/xvgpadov" method="POST" id="contact-form">
+      <form  action="https://formspree.io/f/mdknrkdn" method="POST" id="contact-form">
         <div className="row">
           <div className="col-md-6">
             <label htmlFor="contactName" className="sr-only">
