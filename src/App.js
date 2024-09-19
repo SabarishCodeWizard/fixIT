@@ -256,10 +256,10 @@ function App() {
                 <div className="carousel-inner">
                   <div className="carousel-item">
                     <figure>
-                      <img
+                    <img
                         className="d-block w-100 mx-auto testimonial-image"
-                        src="assets/images/mugu.png"
-                        alt="A smiling man wearing a suit."
+                        src="assets/images/testimonial-1.jpg"
+                        alt="A woman standing in front of a whiteboard."
                       />
                       <figcaption className="carousel-caption">
 
@@ -269,10 +269,11 @@ function App() {
                   </div>
                   <div className="carousel-item active">
                     <figure>
+                      
                       <img
                         className="d-block w-100 mx-auto testimonial-image"
-                        src="assets/images/testimonial-1.jpg"
-                        alt="A woman standing in front of a whiteboard."
+                        src="assets/images/mugu.png"
+                        alt="A smiling man wearing a suit."
                       />
                       <figcaption className="carousel-caption">
 
