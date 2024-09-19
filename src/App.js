@@ -254,7 +254,7 @@ function App() {
                   <li data-target="#testimonial-carousel" data-slide-to={2} />
                 </ol>
                 <div className="carousel-inner">
-                  <div className="carousel-item active">
+                  <div className="carousel-item">
                     <figure>
                     <img
                         className="d-block w-100 mx-auto testimonial-image"
