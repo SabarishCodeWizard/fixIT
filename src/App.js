@@ -254,6 +254,19 @@ function App() {
                   <li data-target="#testimonial-carousel" data-slide-to={2} />
                 </ol>
                 <div className="carousel-inner">
+                  <div className="carousel-item">
+                    <figure>
+                      <img
+                        className="d-block w-100 mx-auto testimonial-image"
+                        src="assets/images/mugu.png"
+                        alt="A smiling man wearing a suit."
+                      />
+                      <figcaption className="carousel-caption">
+
+                        <p className="testimonial-name">- Mugundhan K V</p>
+                      </figcaption>
+                    </figure>
+                  </div>
                   <div className="carousel-item active">
                     <figure>
                       <img
@@ -271,12 +284,12 @@ function App() {
                     <figure>
                       <img
                         className="d-block w-100 mx-auto testimonial-image"
-                        src="assets/images/mugu.png"
-                        alt="A smiling man wearing a suit."
+                        src="assets/images/naveen.png"
+                        alt="A woman standing in front of a colourful graffitied wall."
                       />
                       <figcaption className="carousel-caption">
 
-                        <p className="testimonial-name">- Mugundhan K V</p>
+                        <p className="testimonial-name">- Naveen Kumar P</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -293,19 +306,7 @@ function App() {
                       </figcaption>
                     </figure>
                   </div>
-                  <div className="carousel-item">
-                    <figure>
-                      <img
-                        className="d-block w-100 mx-auto testimonial-image"
-                        src="assets/images/naveen.png"
-                        alt="A woman standing in front of a colourful graffitied wall."
-                      />
-                      <figcaption className="carousel-caption">
-
-                        <p className="testimonial-name">- Naveen Kumar P</p>
-                      </figcaption>
-                    </figure>
-                  </div>
+                  
                 </div>
                 <a
                   className="carousel-control-prev"
