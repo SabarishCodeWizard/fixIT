@@ -289,7 +289,7 @@ function App() {
                       />
                       <figcaption className="carousel-caption">
 
-                        <p className="testimonial-name">- Prabha Karan K</p>
+                        <p className="testimonial-name">- PrabhaKaran K</p>
                       </figcaption>
                     </figure>
                   </div>
