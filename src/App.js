@@ -341,7 +341,7 @@ function App() {
       <div className="col-md-6 order-2 order-md-1">
         <img
           className="d-block w-100 feature-img-round mx-auto"
-          src="assets/images/profile-picture.png"
+          src="assets/images/image.png"
           alt="Our Team"
         />
       </div>
