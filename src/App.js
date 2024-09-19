@@ -263,7 +263,7 @@ function App() {
                       />
                       <figcaption className="carousel-caption">
 
-                        <p className="testimonial-name">- Mugundhan K V</p>
+                        <p className="testimonial-name">- Sabarish R</p>
                       </figcaption>
                     </figure>
                   </div>
@@ -276,7 +276,7 @@ function App() {
                       />
                       <figcaption className="carousel-caption">
 
-                        <p className="testimonial-name">- Sabarish R</p>
+                        <p className="testimonial-name">- Mugundhan K V</p>
                       </figcaption>
                     </figure>
                   </div>
