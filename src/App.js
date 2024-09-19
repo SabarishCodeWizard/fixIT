@@ -270,19 +270,19 @@ function App() {
                   </figcaption>
                 </figure>
               </div>
-              {/* <div className="carousel-item">
+              <div className="carousel-item">
                 <figure>
                   <img
                     className="d-block w-100 mx-auto testimonial-image"
-                    src="assets/images/testimonial-2.jpg"
+                    src="assets/images/mugu.png"
                     alt="A smiling man wearing a suit."
                   />
                   <figcaption className="carousel-caption">
                     <p className="testimonial-text">
-                      Liam is a very reliable and capable freelancer who's
+                      fixIT is a very reliable and capable freelancer who's
                       worked with us on numerous projects.
                     </p>
-                    <p className="testimonial-name">- Paul Butler</p>
+                    <p className="testimonial-name">- Mugundhan K V</p>
                   </figcaption>
                 </figure>
               </div>
@@ -302,7 +302,7 @@ function App() {
                     <p className="testimonial-name">- Ashley Cook</p>
                   </figcaption>
                 </figure>
-              </div> */}
+              </div>
             </div>
             <a
               className="carousel-control-prev"
@@ -341,7 +341,7 @@ function App() {
       <div className="col-md-6 order-2 order-md-1">
         <img
           className="d-block w-100 feature-img-round mx-auto"
-          src="assets/images/image.png"
+          src="assets/images/team.png"
           alt="Our Team"
         />
       </div>
