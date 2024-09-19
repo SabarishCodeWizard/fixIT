@@ -509,7 +509,7 @@ function App() {
               GitHub:&nbsp;
               <br className="d-sm-none" />
               <a href="https://github.com/lmjh/" target="_blank">
-                lmjh{" "}
+                sabarish{"https://github.com/SabarishCodeWizard"}
               </a>
             </div>
           </div>
