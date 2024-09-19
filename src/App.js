@@ -492,7 +492,7 @@ function App() {
                 <div className="col text-md-right">
                   Phone:&nbsp;
                   <br className="d-sm-none" />
-                  <a href="tel:01234567890"> +91 7845081278</a>
+                  <a href="tel:01234567890"> +91 9791901552</a>
                 </div>
               </div>
               <div className="row no-gutters">
@@ -502,7 +502,7 @@ function App() {
                   <a href="mailto:fixit@gmail.com">fixit60656@gmail.com</a>
                 </div>
               </div>
-              <div className="row no-gutters">
+              {/* <div className="row no-gutters">
                 <div className="col text-md-right">
                   GitHub:&nbsp;
                   <br className="d-sm-none" />
@@ -510,7 +510,7 @@ function App() {
                     {"https://github.com/SabarishCodeWizard"}
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
