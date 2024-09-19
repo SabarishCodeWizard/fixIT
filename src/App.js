@@ -398,7 +398,7 @@ function App() {
                   className="list-group-item list-group-item-action"
                 >
                   <i className="fas fa-phone-square" aria-hidden="true" />
-                  <span className="sr-only">Phone number:</span> +91 7845081278
+                  <span className="sr-only">Phone number:</span> +91 9791901552
                 </a>
                 <a
                   href="mailto:liam@example.com"
