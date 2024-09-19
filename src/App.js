@@ -41,7 +41,7 @@ function App() {
                         className="nav-link testimonials-link"
                         href="#testimonials"
                       >
-                        Members
+                       Team Members
                       </a>
                     </li>
                     <li className="nav-item">
@@ -231,7 +231,7 @@ function App() {
         <div className="container-fluid">
           <div className="row">
             <div className="col text-center">
-              <h2 className="section-header">Members</h2>
+              <h2 className="section-header">Team Members</h2>
               <hr />
             </div>
           </div>
