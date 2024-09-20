@@ -307,6 +307,19 @@ function App() {
                       </figcaption>
                     </figure>
                   </div>
+                  <div className="carousel-item">
+                    <figure>
+                      <img
+                        className="d-block w-100 mx-auto testimonial-image"
+                        src="assets/images/kis.png"
+                        alt="A woman standing in front of a colourful graffitied wall."
+                      />
+                      <figcaption className="carousel-caption">
+
+                        <p className="testimonial-name">- Kishore S</p>
+                      </figcaption>
+                    </figure>
+                  </div>
                   
                 </div>
                 <a
