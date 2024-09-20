@@ -396,7 +396,7 @@ function App() {
             <div className="col-md-6">
               <div className="list-group text-center">
                 <a
-                  href="tel:01234567890"
+                  href="tel:9791901552"
                   className="list-group-item list-group-item-action"
                 >
                   <i className="fas fa-phone-square" aria-hidden="true" />
@@ -494,7 +494,7 @@ function App() {
                 <div className="col text-md-right">
                   Phone:&nbsp;
                   <br className="d-sm-none" />
-                  <a href="tel:01234567890"> +91 9791901552</a>
+                  <a href="tel:9791901552"> +91 9791901552</a>
                 </div>
               </div>
               <div className="row no-gutters">
