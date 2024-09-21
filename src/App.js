@@ -320,7 +320,7 @@ function App() {
                       </figcaption>
                     </figure>
                   </div>
-                  <div className="carousel-item">
+                  {/* <div className="carousel-item">
                     <figure>
                       <img
                         className="d-block w-100 mx-auto testimonial-image"
@@ -332,7 +332,7 @@ function App() {
                         <p className="testimonial-name">- Kishore S</p>
                       </figcaption>
                     </figure>
-                  </div>
+                  </div> */}
                   
                 </div>
                 <a
