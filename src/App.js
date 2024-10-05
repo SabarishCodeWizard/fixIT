@@ -258,7 +258,7 @@ function App() {
                     <figure>
                     <img
                         className="d-block w-100 mx-auto testimonial-image"
-                        src="assets/images/testimonial-1.jpg"
+                        src="assets/images/testimonial-1.png"
                         alt="A woman standing in front of a whiteboard."
                       />
                       <figcaption className="carousel-caption">
