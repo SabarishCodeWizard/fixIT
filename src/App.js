@@ -520,7 +520,7 @@ function App() {
                 <div className="col text-md-right">
                   Phone:&nbsp;
                   <br className="d-sm-none" />
-                  <a href="tel:9791901552"> +91 9791901552</a>
+                  <a href="tel:9791901552"> +91 7845081278</a>
                 </div>
               </div>
               <div className="row no-gutters">
